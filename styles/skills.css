@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/*
+   Author: Frenshy Ruiz-Arenas
+   Date:   3/11/2021
+   
+   Filename: skills.css
+*/
+
+/*Section*/
+section {
+	text-align: left;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+
+section.projects {
+	text-align: left;
+	margin-left: 60px;
+}
+ul {
+	margin-top: 20px;
+}
+
+table.tech {
+	list-style-type: none;
+	color: #F08080;
+	font-size: 1.4em;
+	border-spacing: 10px;
+	margin-bottom: 20px;
+}
+
+td {
+	padding: 5px;
+	background-color: #22374b;
+}
+
+td:hover {
+	background-color: #385570;
+}
+
+ul.abilities {
+	font-size: 1.2em;
+}
+
+li.abilities {
+	margin-bottom: 5px;
+}
+
+p {
+	
+	font-size: 1.2em;
+	width: 80%;
+}
+
+h1 {
+	font-size: 3.0em;
+	text-align: center;
+	margin-top: 50px;
+	color: #F8F8FF;
+}
+
+h2 {
+	font-size: 1.8em;
+	margin-top: 14px;
+	color: #8FBC8F
+}
+
+h3 {
+	font-size: 1.4em;
+	color: #ADD8E6
+}
+
+/*Img*/
+img {
+	width: 95%;
+	height: 100%;
+	margin-top: 105px;
+}
+
+img.LMS {
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+img.currency {
+	margin-top: 50px;
+	width: 50%;
+	margin-left: 3%;
+
+}
+
+footer {
+	width: 100%;
+}
