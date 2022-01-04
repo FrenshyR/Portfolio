@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/*
+   Author: Frenshy Ruiz-Arenas
+   Date:   3/11/2021
+   
+   Filename: index.css
+*/
+
+/*Image */
+img {
+	border-radius: 50%; 
+    width: 250px;
+    height: 250px;
+    margin-top: 23px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+nav.navigation {
+
+	margin: 60px auto;
+}
+
+/*Introduction*/
+h1 {
+	text-align: right;
+	margin-top: 20%;
+	font-size: 6.0em;
+	margin-right: 10px;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+}
+
+h2 {
+	width: 40%;
+	font-size: 1.5em;
+	margin-top: 20%;
+	margin-left: 10px;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
+
+/*Nav*/
+
+nav.nav_index {
+	margin: 30px auto;
+    text-align: center;
+}
+
+nav.nav_index li {
+	display: inline;
+	text-align: center;
+	margin-right: 5px;
+}
+
+nav.nav_index > ul > li > a:link, 
+nav.nav_index > ul > li > a:visited {
+	color: #F8F8FF;
+	font-family: YanoneKaffeesatz, Geneva, sans-serif;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 7px;
+}
+
+nav.nav_index > ul > li > a:hover, 
+nav.nav_index > ul > li > a:active {
+	opacity: .5;
+	color: #F8F8FF;
+}
+
+
+
